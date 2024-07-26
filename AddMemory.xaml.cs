@@ -7,6 +7,17 @@ public partial class AddMemory : ContentPage
 		InitializeComponent();
 	}
 
+   
+    /* Event handler for when the "Upload Image" button is clicked.*/
+   
+    /** <param name="sender">The object that triggered the event, typically the button that was clicked.</param>
+     <param name="e">Event arguments related to the click event.</param>
+    
+    
+     This method opens a file picker dialog to allow the user to select an image file.
+    If an image is selected, it is displayed in the `UploadedImage` view.
+    If any error occurs during the image upload, an alert is shown with the error message.
+   **/
     private async void OnUploadImageClicked(object sender, EventArgs e)
     {
         try

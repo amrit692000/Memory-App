@@ -20,6 +20,7 @@ public partial class HomePage : ContentPage
     ensure that the user interface remains responsive during the transition.
      */
 
+
     private async void OnAddMemoryClicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new AddMemory());
